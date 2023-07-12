@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="guardie_e_ladri.css" rel="stylesheet" />
+	<meta charset="utf-8" />
+	<title>Guardie e ladri</title>
+	<link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+                
+</head>
+
+<body>
+	<h2 style="text-align: center">Harry Potter : <span style="color: #F2C204;">Guardia e Ladri</span></h2>
+	<h4 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Muovi con i pulsanti Voldemort e cerca di acchiappare Harry, hai solo 20 tentativi!  </h4>
+	<h3 style="text-align: center" id="numtentativi"></h3>
+	<div id="container">
+		<div id="stanza">
+			
+			<div id="guardia" style="top: 200px; left: 50px;"></div>
+			<div id="ladro" style="top: 250px; left: 400px;"></div>
+		</div>
+		<div id="inputoutput">
+			<div id="pulsanti">
+				<button class="pulsante" id="nord">NORD</button><br />
+				<button class="pulsante" id="ovest">OVEST</button> <button class="pulsante" id="est">EST</button><br />
+				<button class="pulsante" id="sud">SUD</button>
+			</div>
+			<div id="esito"></div>
+			<div id="esitogif"></div>
+			<div id="ricomincia" style="display: none; text-align: center;"> 
+				<button id="ricominciaPartita">Ricomincia </button></div>
+		</div>
+	</div>
+	<script src="guardie_e_ladri.js"></script>
+</body>
+</html>
